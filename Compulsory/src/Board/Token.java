@@ -24,4 +24,8 @@ public class Token {
     }
 
 
+    @Override
+    public String toString() {
+        return "(" + first + ", " + second + ")";
+    }
 }
